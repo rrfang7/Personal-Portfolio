@@ -46,6 +46,20 @@ function Experience() {
           </h4>
           <p>Served in the Army as a Diesel Mechanic</p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2022 - 2024"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<MdOutlineWorkOutline />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Bonita Merch. llc,
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Cleveland, OH
+          </h4>
+          <p>Business Owner: Amazon FBA / FBM</p>
+        </VerticalTimelineElement>
     </VerticalTimeline>
     </div>
   )
