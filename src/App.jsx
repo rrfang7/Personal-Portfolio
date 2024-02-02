@@ -5,6 +5,7 @@ import Projects from './pages/Projects'
 import Experience from './pages/Experience'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
+import Aboutme from "./pages/Aboutme"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/aboutme" element={<Aboutme />} />
           </Routes>
           <Footer />
         </Router>
