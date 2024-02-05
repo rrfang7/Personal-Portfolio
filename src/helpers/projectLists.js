@@ -5,14 +5,18 @@ import proj3 from "../assets/proj3.png"
 export const projectList = [
     {
         name: "Calculator App",
-        image: proj1
+        image: proj1,
+        skills: "JavaScript, HTML, CSS"
+
     },
     {
         name: "E-Commerce Site",
-        image: proj2
+        image: proj2,
+        skills: "React, JavaScript, Express, SQL, NPM, CSS"
     },
     {
         name: "Quiz App",
-        image: proj3
+        image: proj3,
+        skills: "JavaScript, HTML, CSS"
     },
 ]
