@@ -3,6 +3,7 @@ import ProjectItem from '../components/ProjectItem'
 import proj1 from "../assets/proj1.png"
 import proj2 from "../assets/proj2.png"
 import proj3 from "../assets/proj3.png"
+import { projectList } from '../helpers/ProjectLists'
 import "./Project.css"
 
 function Projects() {
@@ -10,9 +11,9 @@ function Projects() {
     <div className='projects'>
       <h1> My Personal Projects</h1>
       <div className='projectList'>
-      <ProjectItem name ="Calculator" image = {proj1}/>
-      <ProjectItem name="E-commerce" image = {proj2}/>
-      <ProjectItem name="Quiz App" image = {proj3}/>
+      {projectList.map((project) => {
+        return <ProjectItem name={project.name} image={project.image}/>
+      })}
       </div>
     </div>
   )
