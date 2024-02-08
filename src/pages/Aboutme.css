@@ -1,17 +1,37 @@
-.hiking {
+h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #3e497a;
+  }
+  
+  p {
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+  }
+  
+  .hiking {
     height: 350px;
     width: 300px;
     margin-left: 20px;
-}
-
-.views {
+  }
+  
+  .views {
     height: 350px;
     width: 300px;
     margin-left: 20px;
-}
-
-video {
+  }
+  
+  video {
     height: 350px;
     width: 300px;
     margin-left: 20px;
-}
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .hiking,
+    .views,
+    video {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  }
