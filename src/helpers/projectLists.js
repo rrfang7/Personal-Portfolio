@@ -17,6 +17,6 @@ export const projectList = [
     {
         name: "Quiz App",
         image: proj3,
-        skills: "JavaScript, HTML, CSS"
+        skills: "React,JavaScript, HTML, CSS"
     },
 ]

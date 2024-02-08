@@ -1,0 +1,45 @@
+.experience {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+  }
+  
+  .vertical-timeline-element-title {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #3e497a;
+  }
+  
+  .vertical-timeline-element-subtitle {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #3e497a;
+  }
+  
+  .vertical-timeline-element p {
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+  }
+  
+  .vertical-timeline-element-date {
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .experience .vertical-timeline-element-title {
+      font-size: 18px;
+    }
+  
+    .experience .vertical-timeline-element-subtitle {
+      font-size: 16px;
+    }
+  
+    .experience .vertical-timeline-element p {
+      font-size: 14px;
+    }
+  
+    .experience .vertical-timeline-element-date {
+      font-size: 14px;
+    }
+  }
+  
