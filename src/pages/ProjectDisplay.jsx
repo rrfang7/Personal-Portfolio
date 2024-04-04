@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { projectList } from '../helpers/ProjectLists';
+import { projectList } from '../helpers/projectLists';
 import { FaGithub } from "react-icons/fa";
 import "./ProjectDisplay.css"
 
